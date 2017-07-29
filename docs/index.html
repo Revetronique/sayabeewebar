@@ -6,8 +6,8 @@
 		<meta name="description" content="A-Frame MMD loader component">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<!-- Specify a default URL for all links -->
-		<base href="../">
+		<!-- Specify a default URL for resources from Revetronique -->
+		<!--<base href="https://cdn.rawgit.com/Revetronique/sayabeewebar/master/">-->
 		
 		<!-- include aframe -->
 		<script src="https://aframe.io/releases/0.6.0/aframe.min.js" type="text/javascript"></script>
@@ -46,12 +46,12 @@
 			</a-assets>
 			
 			<!-- MMD Model -->
-			<a-marker type='pattern' url='data/patt.hiro' size='1'>
+			<a-marker type='pattern' url='https://cdn.rawgit.com/Revetronique/sayabeewebar/master/data/patt.hiro' size='1'>
 				<!-- add Sayabee MMD -->
-				<a-entity scale="0.1 0.1 0.1">
+				<a-entity scale="0.08 0.08 0.08">
 					<a-entity mmd='outline: true' afterglow:2.0;>
-						<a-entity mmd-model="model:mmd/Sayabee_refine_PMX/sayabee_rev.pmx;
-											vmd:motion/Tweet_Motion/Tweet_Motion.vmd;
+						<a-entity mmd-model="model:https://cdn.rawgit.com/Revetronique/sayabeewebar/master/mmd/Sayabee_refine_PMX/sayabee_rev.pmx;
+											vmd:https://cdn.rawgit.com/Revetronique/sayabeewebar/master/motion/Tweet_Motion/Tweet_Motion.vmd;
 											physics:false;"
 									shadow="cast:true"
 									position="0 0 0">
