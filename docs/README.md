@@ -3,12 +3,12 @@ A test webpage for providing an AR content with ar.js.
 ![Sayabee AR](sayabee_test1.png)
 
 # Just Opening the Website on your Browser
-You can try it only if jump to [Sayabee WebAR page](https://revetronique.github.io/sayabeewebar/).  
+You can try it only if jumping to [Sayabee WebAR page](https://revetronique.github.io/sayabeewebar/).  
   
-After opening the page, hold a [Hiro Marker](https://github.com/Revetronique/sayabeewebar/blob/master/data/Hiro%20pattern%20with%20border.pdf) in front of the webcam embedded on your device and you can see "Sayabee" mmd model dancing on the marker.
+After opening the page, hold a [Hiro Marker](https://github.com/Revetronique/sayabeewebar/blob/master/data/Hiro%20pattern%20with%20border.pdf) in front of the webcam embedded on your device and you can see "Sayabee" mmd model is dancing on the marker.
 
 ## Requirement
-Your device are necessary to satisfy the following conditions.
+Your devices are necessary to satisfy the following conditions.
 * Windows or Android OS installed
 * Google Chrome or FireFox (Recommended)
 * Camera Device embedded (or you need to connect a Webcam if it's not)
